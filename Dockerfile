@@ -36,5 +36,5 @@ RUN useradd -m -d /home/jenkins -s /bin/sh jenkins &&\
 EXPOSE 22
 
 # Default command
-CMD ["-D"]
-ENTRYPOINT ["/usr/sbin/sshd"]
+CMD []
+ENTRYPOINT []
